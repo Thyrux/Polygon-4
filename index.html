@@ -24,7 +24,6 @@ body, html {
 </head>
 <body id="cursor" class="cursor" onload="autoLoad()">
 <?php include 'header.php'; ?>
-<?php include 'warpspeed.php'; ?>
 	----------------------------
 	<div id="nav" onclick="toggleNavExp()"> <div class="content"> <div id="logo" 
 	class="glow">Polygon-4</div> <a frag="articles.php?s=1" 
@@ -36,6 +35,15 @@ body, html {
 	href="https://aim-artificial-intelligence-machine.fandom.com/wiki/Polygon-4_(game)">A.I.M. 
 	Wiki</a>
 </div>
+</div>
+	----------------------------
+<?php include 'warpspeed.php'; ?>
+	----------------------------
+	<div id="background"> <canvas id="bkFrame" width="2548" height="1279"></canvas> <script 
+	type="text/javascript">
+		ai_background=new WarpSpeed("bkFrame",{targetSpeed:0.8, speedAdjFactor:0.07, 
+		shape:"circle", backgroundColor:"hsl(263,45%,8%)", speedWhileLoading:18});
+	</script>
 </div>
 	----------------------------
 <div id="page" style="">
@@ -152,6 +160,11 @@ body, html {
 	</div>
 </div>
 <?php include 'footer.php'; ?>
+	--------------------------
+	<div id="footer"><div class="content">
+	&copy 2015-<script type="text/javascript">document.write(new Date().getFullYear())</script> Polygon-4 Team
+</div>
+	--------------------------
 </div></div></div>
 </body>
 </html>
