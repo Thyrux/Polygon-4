@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://p4.silen.org/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://p4.silen.org/downloads/client/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://p4.silen.org/downloads/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://p4.silen.org/downloads/client/Linux/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://p4.silen.org/downloads/client/Macintosh/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://p4.silen.org/downloads/client/Windows/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://p4.silen.org/downloads/dlc/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://p4.silen.org/downloads/server/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://p4.silen.org/downloads/source/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://p4.silen.org/downloads/dlc/A.I.M.-DXVK/</loc>
+  <lastmod>2020-01-17T08:38:44+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>

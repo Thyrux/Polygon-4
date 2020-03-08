@@ -1,0 +1,77 @@
+/*
+	Yellow Alert
+*/
+#conditionYellow{
+  animation: secure_area ease .75s;
+  animation-iteration-count: infinite;
+}
+ 
+@keyframes secure_area{
+  0% {
+    opacity:1;
+    color: #fff;
+  }
+  60% {
+  	color: #ffff00;
+  }
+  100% {
+    opacity:.025;
+  }
+}
+/*
+	Red Alert
+*/
+#conditionRed{
+  animation: damage_or_danger ease .75s;
+  animation-iteration-count: infinite;
+}
+ 
+@keyframes damage_or_danger{
+  0% {
+    opacity:1;
+    color: #ff0000;
+  }
+  60% {
+        color: #ff1e00;
+  }
+  100% {
+    opacity:.025;
+  }
+}
+/*
+        REDLINK
+*/
+#linkRed{
+  animation: link_red ease .65s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes link_red{
+  0% {
+    opacity:1;
+    color:#fff;
+  }
+  40% {
+        color:#ff8080;
+  }
+  100% {
+    opacity:1;
+  }
+}
+/*
+	GLOW
+*/
+.glow {
+  color: #fff;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #a099ea, 0 0 4px #a099ea, 0 0 5px #a099ea, 0 0 6px #a099ea, 0 0 7px #a099ea;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 15px #a099ea, 0 0 20px #a099ea, 0 0 25px #a099ea, 0 0 30px #a099ea, 0 0 35px #a099ea, 0 0 40px #a099ea;
+  }
+}

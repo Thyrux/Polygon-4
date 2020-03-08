@@ -1,0 +1,55 @@
+html,body{
+	background-color:#FFFFFF;
+}
+html,body,a,p,h1,h2,h3,h4,h5,h6{
+	color:#000000;
+}
+div.articleEntry > div.details *{
+	color:#FFFFFF;
+}
+#background,#nav,.oldFragment{
+	display:none;
+}
+#page{
+	position:relative;
+	height:auto;
+	overflow-y:auto;
+	margin-top:0;
+	top:0;
+}
+#fragment{
+	position:relative;
+	animation:none;
+	margin-top:0;
+	opacity:1;
+}
+div.content{
+	max-width:95%;
+}
+code, .code, div.code{
+	background-color:#CCCCCC;
+	color:#000000;
+	white-space:normal !important;
+	word-wrap:break-word;
+	overflow:hidden !important;
+}
+a.downloadButton{
+	border-color:#000000;
+}
+#lightbox,#lbimg{
+	position:relative;
+	height:auto;
+	background:none;
+}
+div.flashFx{
+	display:none;
+}
+/*#footer{
+	display:none;
+}*/
+#article_comments > form{
+	display:none;
+}
+#commentsArea *{
+	color:#000000;
+}

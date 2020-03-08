@@ -1,0 +1,9 @@
+# Group 1
+User-agent: Googlebot
+Disallow: /downloads
+
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: https://p4.silen.org/sitemap.xml

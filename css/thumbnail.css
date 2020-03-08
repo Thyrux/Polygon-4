@@ -1,0 +1,22 @@
+div.gallery{
+	padding:1em 0;
+	width:100%;
+	white-space:nowrap;
+	overflow-x:auto;
+}
+@media print{
+	div.gallery{
+		white-space:normal;
+	}
+}
+img.thumbnail{
+	display:inline-block;
+	height:6em;
+	width:auto;
+	margin:0 0.35em 0 0;
+	border:0.15em solid rgba(89,168,201,0.3);
+	cursor:pointer;
+}
+img.thumbnail:hover, img.thumbnail:active{
+	border-color:#FFFFFF;
+}
